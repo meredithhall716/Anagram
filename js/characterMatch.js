@@ -34,10 +34,6 @@ exports.isCharacterMatch = function (string1, string2){
 
     let newStr1 = arr1.join("")
     let newStr2 = arr2.join("")
-    
-    console.log(newStr1)
-    console.log(newStr2)
-    // console.log(string2)
 
     if (newStr1 === newStr2) {
         return true
